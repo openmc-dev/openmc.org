@@ -4,4 +4,4 @@ plugins:
 github:
   is_project_page: false
 title: OpenMC
-description: [OpenMC Monte Carlo Code]
+description: Monte Carlo Code
