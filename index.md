@@ -4,7 +4,10 @@ title: OpenMC
 description: OpenMC Monte Carlo Code
 ---
 
-[Documentation](https://docs.openmc.org/)   [Discussion Forum](https://openmc.discourse.group/)   [Cross Sections](./cross_sections.html)   [Depletion Chains](./depletion_chains.html)
+| [Documentation](https://docs.openmc.org/) | [Discussion Forum](https://openmc.discourse.group/) | [Cross Sections](./cross_sections.html) | [Depletion Chains](./depletion_chains.html) |
+|:-------------|:------------------|:------|:------|
+
+        
 
 OpenMC is a community-developed Monte Carlo neutron and photon transport code. It is capable of performing fixed source, k-eigenvalue, and subcritical multiplication calculations on models built using either a constructive solid geometry or CAD representation. A flexible and efficient tally system enables a wide variety of physical quantities to be tallied and analyzed. OpenMC can run in parallel using a hybrid MPI and OpenMP programming model and has been extensively tested on leadership class supercomputers.
 
