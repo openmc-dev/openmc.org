@@ -15,4 +15,3 @@ TODO
 - [] find a better way showing the 4 links instead of a table
 - [] complete the cross sections page
 - [] complete the depletion chains page
-
