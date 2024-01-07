@@ -3,5 +3,5 @@ plugins:
 - jekyll-remote-theme
 github:
   is_project_page: false
-title: [OpenMC]
+title: OpenMC
 description: [OpenMC Monte Carlo Code]
