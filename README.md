@@ -11,7 +11,5 @@ Moving the website to a github repo (which could be part of the openmc-dev organ
 
 [link to demo site](https://shimwell.github.io/example_github_pages_for_openmc/)
 
-TODO
+TOD
 - [] find a better way showing the 4 links instead of a table
-- [] complete the cross sections page
-- [] complete the depletion chains page
