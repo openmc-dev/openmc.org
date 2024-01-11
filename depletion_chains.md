@@ -14,8 +14,8 @@ Provided here is a complete depletion chain containing all isotopes with cross s
 
 Download:
 
-    for version 0.11 [.xml](https://anl.box.com/shared/static/1ndcrc1j042nkdpfobp5ebsyxghziisc.xml)
-    for version 0.12+ [.xml](https://anl.box.com/shared/static/os1u896bwsbopurpgas72bi6aij2zzdc.xml)
+for version 0.11 [.xml](https://anl.box.com/shared/static/1ndcrc1j042nkdpfobp5ebsyxghziisc.xml)
+for version 0.12+ [.xml](https://anl.box.com/shared/static/os1u896bwsbopurpgas72bi6aij2zzdc.xml)
 
 ## ENDF/B-VII.1 Chain (Fast Spectrum)
 
@@ -23,8 +23,8 @@ Provided here is a similar complete depletion chain, but using capture branching
 
 Download:
 
-    for version 0.11 [.xml](https://anl.box.com/shared/static/bb7sfrrf6pyyoa5zoa2sxiuy7mvn5kza.xml)
-    for version 0.12+ [.xml](https://anl.box.com/shared/static/9058zje1gm0ekd93hja542su50pccvj0.xml)
+for version 0.11 [.xml](https://anl.box.com/shared/static/bb7sfrrf6pyyoa5zoa2sxiuy7mvn5kza.xml)
+for version 0.12+ [.xml](https://anl.box.com/shared/static/9058zje1gm0ekd93hja542su50pccvj0.xml)
 
 ## ENDF/B-VIII.0 Chain (Thermal Spectrum)
 
@@ -42,8 +42,8 @@ Provided here is a simplified depletion chain using isotopes recommended by Appe
 
 Download:
 
-    for version 0.11 [.xml](https://anl.box.com/shared/static/lv4b1epe8kwfvqtzhaik19outb9s4vta.xml)
-    for version 0.12+ [.xml](https://anl.box.com/shared/static/3nvnasacm2b56716oh5hyndxdyauh5gs.xml)
+for version 0.11 [.xml](https://anl.box.com/shared/static/lv4b1epe8kwfvqtzhaik19outb9s4vta.xml)
+for version 0.12+ [.xml](https://anl.box.com/shared/static/3nvnasacm2b56716oh5hyndxdyauh5gs.xml)
 
 ## Simplified Chain (Fast Spectrum)
 
@@ -51,12 +51,12 @@ Provided here is a simplified depletion chain using isotopes recommended by Appe
 
 Download:
 
-    for version 0.11 [.xml](https://anl.box.com/shared/static/4j27ca0l112krbw9nldj195bqik9qgvn.xml)
-    for version 0.12+ [.xml](https://anl.box.com/shared/static/9fqbq87j0tx4m6vfl06pl4ccc0hwamg9.xml)
+for version 0.11 [.xml](https://anl.box.com/shared/static/4j27ca0l112krbw9nldj195bqik9qgvn.xml)
+for version 0.12+ [.xml](https://anl.box.com/shared/static/9fqbq87j0tx4m6vfl06pl4ccc0hwamg9.xml)
 
 ## Capture Branching Ratios
 
 Below are links to tabulated representations of the capture branching ratios computed using PWR and SFR spectra. The PWR branching ratios are taken from the Serpent Wiki. The SFR branching ratios are computed by computing one group total capture, capture to ground, and capture to metastable states in an SFR assembly.
 
-    [PWR Spectrum Capture Branching Ratios](http://openmc.org/pwr-spectrum-capture-branching-ratios/)
-    [SFR Spectrum Capture Branching Ratios](http://openmc.org/sfr-spectrum-capture-branching-ratios/)
+[PWR Spectrum Capture Branching Ratios](http://openmc.org/pwr-spectrum-capture-branching-ratios/)
+[SFR Spectrum Capture Branching Ratios](http://openmc.org/sfr-spectrum-capture-branching-ratios/)
