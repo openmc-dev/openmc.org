@@ -9,7 +9,4 @@ The site is simple to maintain as it is just a few pages written in MarkDown (wh
 
 Moving the website to a github repo (which could be part of the openmc-dev organisation) allows contributors to help maintain the site. Github pages also support custom domains so it could in theory do everything we need.
 
-[link to demo site](https://shimwell.github.io/example_github_pages_for_openmc/)
-
-TOD
-- [] find a better way showing the 4 links instead of a table
+[link to demo site](https://opnmc-dev.github.io/openmc.org/)
