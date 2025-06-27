@@ -2,8 +2,7 @@ version: 1
 project:
   toc:
   - file: index.md
-  - file: cross_sections.md
-  - file: depletion_chains.md
+  - file: data.md
   title: OpenMC
   keywords: []
   authors: []
@@ -20,8 +19,6 @@ site:
     url: https://docs.openmc.org/
   - title: Discussion Forum
     url: https://openmc.discourse.group/
-  - title: Cross Sections
-    url: /openmc.org/cross_sections
-  - title: Depletion Chains
-    url: /openmc.org/depletion_chains
+  - title: Data
+    url: /openmc.org/data
   domains: []
