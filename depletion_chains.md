@@ -1,11 +1,3 @@
----
-layout: default
-title: Cross Sections
-description: Download h5 cross sections for use in OpenMC
----
-
-| [Documentation](https://docs.openmc.org/) | [Discussion Forum](https://openmc.discourse.group/) | [Cross Sections](./cross_sections.html) | [Depletion Chains](./depletion_chains.html) |
-
 # Depletion Chains
 
 In order to perform depletion analysis using [the OpenMC depletion module](https://docs.openmc.org/en/latest/pythonapi/deplete.html), a representation of the depletion chain must be presented. This chain describes transmutation and decay channels causing isotopes to evolve over time. XML-representations of these depletion chains can be built using evaluated nuclear data libraries. OpenMC provides [functions](https://docs.openmc.org/en/latest/pythonapi/generated/openmc.deplete.Chain.html#openmc.deplete.Chain.from_endf) and scripts to generate these chain files using a collection of neutron interaction, neutron-induced fission, and decay files. Alternatively, three pre-generated chain files are made available using [ENDF/B-VII.1 data distributed with OpenMC](http://openmc.org/official-data-libraries/).
