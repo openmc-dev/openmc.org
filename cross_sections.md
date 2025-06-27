@@ -1,3 +1,9 @@
+---
+title: 'Cross sections'
+license: CC-BY-4.0
+github: 'https://github.com/openmc-dev/openmc.org'
+---
+
 # Official Data Libraries
 
 The data libraries listed here have been produced by the OpenMC development team and are as complete as possible. HDF5 files are created by first processing source ENDF files into ACE files and then using the [openmc.data](https://docs.openmc.org/en/stable/pythonapi/data.html) Python module to convert ACE data into HDF5. The entire process is automated by the [IncidentNeutron.from_njoy](https://docs.openmc.org/en/stable/pythonapi/generated/openmc.data.IncidentNeutron.html#openmc.data.IncidentNeutron.from_njoy) method which calls [NJOY](http://www.njoy21.io/) under the hood to produce ACE files.
