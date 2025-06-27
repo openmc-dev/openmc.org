@@ -5,23 +5,27 @@ project:
   - file: cross_sections.md
   - file: depletion_chains.md
   title: OpenMC
-  keywords: []
-  authors: []
+  keywords:
+  - monte
+  - carlo
+  - transport
+  - neutron
+  - photon
 site:
   template: book-theme
   title: OpenMC
   options:
     logo: logo.png
     favicon: favicon.ico
-    hide_toc: true
-    hide_footer_links : true
+    # hide_toc: true
+    # hide_footer_links : true
   nav:
   - title: Documentation
     url: https://docs.openmc.org/
   - title: Discussion Forum
     url: https://openmc.discourse.group/
   - title: Cross Sections
-    url: /openmc.org/cross_sections
+    file: cross_sections.md
   - title: Depletion Chains
-    url: /openmc.org/depletion_chains
+    file: depletion_chains.md
   domains: []
