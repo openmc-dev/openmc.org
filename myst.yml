@@ -25,7 +25,7 @@ site:
   - title: Discussion Forum
     url: https://openmc.discourse.group/
   - title: Cross Sections
-    file: cross_sections.md
+    url: openmc.org/cross_sections
   - title: Depletion Chains
-    file: depletion_chains.md
+    url: openmc.org/depletion_chains
   domains: []
