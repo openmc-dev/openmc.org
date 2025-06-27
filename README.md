@@ -1,12 +1,15 @@
 
-A repo showing how to make the OpenMC website using Github pages.
 
-The website makes use of the [Slate](https://github.com/pages-themes/slate) GitHub pages theme as this is the most similar to the current openmc.org style.
+A repository containing the OpenMC website using Github pages.
 
-There are [other themes](https://pages.github.com/themes/) and of course themes can be altered to suit.
+To build the site locally, clone the repository then install Myst Markdown
 
-The site is simple to maintain as it is just a few pages written in MarkDown (which Jekyll  converts to html when Github pages builds the site)
+```
+python -m pip install mystmd
+```
+Then build and host the site locally with
+```
+myst start
+```
 
-Moving the website to a github repo (which could be part of the openmc-dev organisation) allows contributors to help maintain the site. Github pages also support custom domains so it could in theory do everything we need.
-
-[link to demo site](https://opnmc-dev.github.io/openmc.org/)
+[link to live site](https://opnmc-dev.github.io/openmc.org/)
