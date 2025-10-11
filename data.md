@@ -76,7 +76,7 @@ Download: [.tar.xz](https://anl.box.com/shared/static/3cb7jetw7tmxaw6nvn77x6c578
 
 ## Depletion Chains
 
-In order to perform depletion analysis using [the OpenMC depletion module](https://docs.openmc.org/en/latest/pythonapi/deplete.html), a representation of the depletion chain must be presented. This chain describes transmutation and decay channels causing isotopes to evolve over time. XML-representations of these depletion chains can be built using evaluated nuclear data libraries. OpenMC provides [functions](https://docs.openmc.org/en/latest/pythonapi/generated/openmc.deplete.Chain.html#openmc.deplete.Chain.from_endf) and scripts to generate these chain files using a collection of neutron interaction, neutron-induced fission, and decay files. Alternatively, three pre-generated chain files are made available using [ENDF/B-VII.1 data distributed with OpenMC](http://openmc.org/official-data-libraries/).
+In order to perform depletion analysis using [the OpenMC depletion module](https://docs.openmc.org/en/latest/pythonapi/deplete.html), a representation of the depletion chain must be presented. This chain describes transmutation and decay channels causing isotopes to evolve over time. XML-representations of these depletion chains can be built using evaluated nuclear data libraries. OpenMC provides [functions](https://docs.openmc.org/en/latest/pythonapi/generated/openmc.deplete.Chain.html#openmc.deplete.Chain.from_endf) and scripts to generate these chain files using a collection of neutron interaction, neutron-induced fission, and decay files. Alternatively, three pre-generated chain files are made available using [ENDF/B-VII.1 data distributed with OpenMC](https://openmc.org/official-data-libraries/).
 
 ### ENDF/B-VII.1 Chain (Thermal Spectrum)
 
@@ -128,5 +128,5 @@ for version 0.12+ [.xml](https://anl.box.com/shared/static/9fqbq87j0tx4m6vfl06pl
 
 Below are links to tabulated representations of the capture branching ratios computed using PWR and SFR spectra. The PWR branching ratios are taken from the Serpent Wiki. The SFR branching ratios are computed by computing one group total capture, capture to ground, and capture to metastable states in an SFR assembly.
 
-[PWR Spectrum Capture Branching Ratios](http://openmc.org/pwr-spectrum-capture-branching-ratios/)
-[SFR Spectrum Capture Branching Ratios](http://openmc.org/sfr-spectrum-capture-branching-ratios/)
+[PWR Spectrum Capture Branching Ratios](https://openmc.org/pwr-spectrum-capture-branching-ratios/)
+[SFR Spectrum Capture Branching Ratios](https://openmc.org/sfr-spectrum-capture-branching-ratios/)

@@ -20,5 +20,7 @@ site:
   - title: Discussion Forum
     url: https://openmc.discourse.group/
   - title: Data
-    url: /openmc.org/data
-  domains: []
+    url: /data
+  domains:
+  - openmc.org
+  - www.openmc.org
