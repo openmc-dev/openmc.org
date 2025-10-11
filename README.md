@@ -12,4 +12,4 @@ Then build and host the site locally with
 myst start
 ```
 
-[link to live site](https://openmc-dev.github.io/openmc.org//)
+[link to live site](https://openmc.org/)
