@@ -21,6 +21,4 @@ site:
     url: https://openmc.discourse.group/
   - title: Data
     url: /data
-  domains:
-  - openmc.org
-  - www.openmc.org
+  domains: []
