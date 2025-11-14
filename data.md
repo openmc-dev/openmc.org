@@ -130,5 +130,5 @@ for version 0.12+ [.xml](https://anl.box.com/shared/static/9fqbq87j0tx4m6vfl06pl
 
 Below are links to tabulated representations of the capture branching ratios computed using PWR and SFR spectra. The PWR branching ratios are taken from the Serpent Wiki. The SFR branching ratios are computed by computing one group total capture, capture to ground, and capture to metastable states in an SFR assembly.
 
-[PWR Spectrum Capture Branching Ratios](https://openmc.org/pwr-spectrum-capture-branching-ratios/)
-[SFR Spectrum Capture Branching Ratios](https://openmc.org/sfr-spectrum-capture-branching-ratios/)
+[PWR Spectrum Capture Branching Ratios](https://github.com/openmc-dev/data/blob/master/depletion/branching_ratios_pwr.json)
+[SFR Spectrum Capture Branching Ratios](https://github.com/openmc-dev/data/blob/master/depletion/branching_ratios_sfr.json)
