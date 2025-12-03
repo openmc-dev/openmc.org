@@ -87,19 +87,13 @@ In order to perform depletion analysis using [the OpenMC depletion module](https
 
 Provided here is a complete depletion chain containing all isotopes with cross sections, neutron-induced fission yield data, and decay data as contained in the ENDF/B-VII.1 libraries distributed with OpenMC. Capture branching ratios are taken to be identical to the [default branching ratios used in the Serpent](http://serpent.vtt.fi/mediawiki/index.php/Default_isomeric_branching_ratios) Monte Carlo code, corresponding to a typical PWR spectrum.
 
-Download:
-
-for version 0.11 [.xml](https://anl.box.com/shared/static/1ndcrc1j042nkdpfobp5ebsyxghziisc.xml)
-for version 0.12+ [.xml](https://anl.box.com/shared/static/os1u896bwsbopurpgas72bi6aij2zzdc.xml)
+Download: [.xml](https://anl.box.com/shared/static/os1u896bwsbopurpgas72bi6aij2zzdc.xml)
 
 ### ENDF/B-VII.1 Chain (Fast Spectrum)
 
 Provided here is a similar complete depletion chain, but using capture branching ratios that are more representative of a sodium fast reactor (SFR). Branching ratios were computed by tallying total capture reaction rates, capture to ground, and capture to metastable states for specific isotopes. The effective branching ratios were taken to be the ratio of reactions to ground to total number of capture reactions for each isotope.
 
-Download:
-
-for version 0.11 [.xml](https://anl.box.com/shared/static/bb7sfrrf6pyyoa5zoa2sxiuy7mvn5kza.xml)
-for version 0.12+ [.xml](https://anl.box.com/shared/static/9058zje1gm0ekd93hja542su50pccvj0.xml)
+Download: [.xml](https://anl.box.com/shared/static/9058zje1gm0ekd93hja542su50pccvj0.xml)
 
 ### ENDF/B-VIII.0 Chain (Thermal Spectrum)
 
@@ -129,19 +123,13 @@ Download: [.xml](https://anl.box.com/shared/static/n0pkqe66uotskoljr93szvjyvtvyc
 
 Provided here is a simplified depletion chain using isotopes recommended by Appendix A of Kang Seog Kim, “Specification for the VERA Depletion Benchmark Suite”, CASL-U-2015-1014-000, Rev. 0, ORNL/TM-2016/53, 2016. Te129 has been included, due to its link to I129 production. Capture branching ratios representative of a PWR spectrum are applied to relevant isotopes.
 
-Download:
-
-for version 0.11 [.xml](https://anl.box.com/shared/static/lv4b1epe8kwfvqtzhaik19outb9s4vta.xml)
-for version 0.12+ [.xml](https://anl.box.com/shared/static/3nvnasacm2b56716oh5hyndxdyauh5gs.xml)
+Download: [.xml](https://anl.box.com/shared/static/3nvnasacm2b56716oh5hyndxdyauh5gs.xml)
 
 ### Simplified Chain (Fast Spectrum)
 
 Provided here is a simplified depletion chain using isotopes recommended by Appendix A of Kang Seog Kim, [“Specification for the VERA Depletion Benchmark Suite”](https://doi.org/10.2172/1256820), CASL-U-2015-1014-000, Rev. 0, ORNL/TM-2016/53, 2016. Te129 has been included, due to its link to I129 production. Capture branching ratios representative of an SFR spectrum are applied to relevant isotopes.
 
-Download:
-
-for version 0.11 [.xml](https://anl.box.com/shared/static/4j27ca0l112krbw9nldj195bqik9qgvn.xml)
-for version 0.12+ [.xml](https://anl.box.com/shared/static/9fqbq87j0tx4m6vfl06pl4ccc0hwamg9.xml)
+Download: [.xml](https://anl.box.com/shared/static/9fqbq87j0tx4m6vfl06pl4ccc0hwamg9.xml)
 
 ### Capture Branching Ratios
 
