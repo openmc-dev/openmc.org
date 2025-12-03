@@ -83,57 +83,37 @@ Download: [.tar.xz](https://anl.box.com/shared/static/3cb7jetw7tmxaw6nvn77x6c578
 
 In order to perform depletion analysis using [the OpenMC depletion module](https://docs.openmc.org/en/latest/pythonapi/deplete.html), a representation of the depletion chain must be presented. This chain describes transmutation and decay channels causing isotopes to evolve over time. XML-representations of these depletion chains can be built using evaluated nuclear data libraries. OpenMC provides [functions](https://docs.openmc.org/en/latest/pythonapi/generated/openmc.deplete.Chain.html#openmc.deplete.Chain.from_endf) and scripts to generate these chain files using a collection of neutron interaction, neutron-induced fission, and decay files. Alternatively, pre-generated chain files are made available here.
 
-### ENDF/B-VII.1 Chain (Thermal Spectrum)
+### ENDF/B-VII.1
 
-Provided here is a complete depletion chain containing all isotopes with cross sections, neutron-induced fission yield data, and decay data as contained in the ENDF/B-VII.1 libraries distributed with OpenMC. Capture branching ratios are taken to be identical to the [default branching ratios used in the Serpent](http://serpent.vtt.fi/mediawiki/index.php/Default_isomeric_branching_ratios) Monte Carlo code, corresponding to a typical PWR spectrum.
+This is a complete depletion chain containing all isotopes with cross sections, neutron-induced fission yield data, and decay data as contained in the ENDF/B-VII.1 libraries distributed with OpenMC. Two versions are provided with spectrum-averaged capture branching ratios: one based on a thermal flux spectrum and one based on a fast flux spectrum.
 
-Download: [.xml](https://anl.box.com/shared/static/os1u896bwsbopurpgas72bi6aij2zzdc.xml)
+Thermal spectrum: [.xml](https://anl.box.com/shared/static/os1u896bwsbopurpgas72bi6aij2zzdc.xml)
+Fast spectrum: [.xml](https://anl.box.com/shared/static/9058zje1gm0ekd93hja542su50pccvj0.xml)
 
-### ENDF/B-VII.1 Chain (Fast Spectrum)
+### ENDF/B-VIII.0
 
-Provided here is a similar complete depletion chain, but using capture branching ratios that are more representative of a sodium fast reactor (SFR). Branching ratios were computed by tallying total capture reaction rates, capture to ground, and capture to metastable states for specific isotopes. The effective branching ratios were taken to be the ratio of reactions to ground to total number of capture reactions for each isotope.
+This is a complete depletion chain generated based on the incident neutron, decay, and neutron fission yield sublibraries from ENDF/B-VIII.0. Two versions are provided with spectrum-averaged capture branching ratios: one based on a thermal flux spectrum and one based on a fast flux spectrum.
 
-Download: [.xml](https://anl.box.com/shared/static/9058zje1gm0ekd93hja542su50pccvj0.xml)
+Thermal spectrum: [.xml](https://anl.box.com/shared/static/nyezmyuofd4eqt6wzd626lqth7wvpprr.xml)
+Fast spectrum: [.xml](https://anl.box.com/shared/static/x3kp739hr5upmeqpbwx9zk9ep04fnmtg.xml)
 
-### ENDF/B-VIII.0 Chain (Thermal Spectrum)
+### ENDF/B-VIII.1
 
-This is a complete depletion chain generated based on the incident neutron, decay, and neutron fission yield sublibraries from ENDF/B-VIII.0. Capture branching ratios are taken to be identical to the [default branching ratios used in the Serpent](http://serpent.vtt.fi/mediawiki/index.php/Default_isomeric_branching_ratios) Monte Carlo code, corresponding to a typical PWR spectrum.
+This is a complete depletion chain generated based on the incident neutron, decay, and neutron fission yield sublibraries from ENDF/B-VIII.1. Two versions are provided with spectrum-averaged capture branching ratios: one based on a thermal flux spectrum and one based on a fast flux spectrum.
 
-Download: [.xml](https://anl.box.com/shared/static/nyezmyuofd4eqt6wzd626lqth7wvpprr.xml)
+Thermal spectrum: [.xml](https://anl.box.com/shared/static/q6ev8pl7xct179ke7kq148smde8gzni6.xml)
+Fast spectrum: [.xml](https://anl.box.com/shared/static/n0pkqe66uotskoljr93szvjyvtvycgze.xml)
 
-### ENDF/B-VIII.0 Chain (Fast Spectrum)
+### Simplified Chain
 
-This is a complete depletion chain generated based on the incident neutron, decay, and neutron fission yield sublibraries from ENDF/B-VIII.0. Capture branching ratios used within are representative of a sodium fast reactor (SFR). Branching ratios were computed by tallying total capture reaction rates, capture to ground, and capture to metastable states for specific isotopes. The effective branching ratios were taken to be the ratio of reactions to ground to total number of capture reactions for each isotope.
+Provided here is a simplified depletion chain using isotopes recommended by Appendix A of Kang Seog Kim, “Specification for the VERA Depletion Benchmark Suite”, CASL-U-2015-1014-000, Rev. 0, ORNL/TM-2016/53, 2016. Te129 has been included, due to its link to I129 production. Two versions are provided with spectrum-averaged capture branching ratios: one based on a thermal flux spectrum and one based on a fast flux spectrum.
 
-Download: [.xml](https://anl.box.com/shared/static/x3kp739hr5upmeqpbwx9zk9ep04fnmtg.xml)
-
-### ENDF/B-VIII.1 Chain (Thermal Spectrum)
-
-This is a complete depletion chain generated based on the incident neutron, decay, and neutron fission yield sublibraries from ENDF/B-VIII.1. Capture branching ratios are taken to be identical to the [default branching ratios used in the Serpent](http://serpent.vtt.fi/mediawiki/index.php/Default_isomeric_branching_ratios) Monte Carlo code, corresponding to a typical PWR spectrum.
-
-Download: [.xml](https://anl.box.com/shared/static/q6ev8pl7xct179ke7kq148smde8gzni6.xml)
-
-### ENDF/B-VIII.1 Chain (Fast Spectrum)
-
-This is a complete depletion chain generated based on the incident neutron, decay, and neutron fission yield sublibraries from ENDF/B-VIII.1. Capture branching ratios used within are representative of a sodium fast reactor (SFR). Branching ratios were computed by tallying total capture reaction rates, capture to ground, and capture to metastable states for specific isotopes. The effective branching ratios were taken to be the ratio of reactions to ground to total number of capture reactions for each isotope.
-
-Download: [.xml](https://anl.box.com/shared/static/n0pkqe66uotskoljr93szvjyvtvycgze.xml)
-
-### Simplified Chain (Thermal Spectrum)
-
-Provided here is a simplified depletion chain using isotopes recommended by Appendix A of Kang Seog Kim, “Specification for the VERA Depletion Benchmark Suite”, CASL-U-2015-1014-000, Rev. 0, ORNL/TM-2016/53, 2016. Te129 has been included, due to its link to I129 production. Capture branching ratios representative of a PWR spectrum are applied to relevant isotopes.
-
-Download: [.xml](https://anl.box.com/shared/static/3nvnasacm2b56716oh5hyndxdyauh5gs.xml)
-
-### Simplified Chain (Fast Spectrum)
-
-Provided here is a simplified depletion chain using isotopes recommended by Appendix A of Kang Seog Kim, [“Specification for the VERA Depletion Benchmark Suite”](https://doi.org/10.2172/1256820), CASL-U-2015-1014-000, Rev. 0, ORNL/TM-2016/53, 2016. Te129 has been included, due to its link to I129 production. Capture branching ratios representative of an SFR spectrum are applied to relevant isotopes.
-
-Download: [.xml](https://anl.box.com/shared/static/9fqbq87j0tx4m6vfl06pl4ccc0hwamg9.xml)
+Thermal spectrum: [.xml](https://anl.box.com/shared/static/3nvnasacm2b56716oh5hyndxdyauh5gs.xml)
+Fast spectrum: [.xml](https://anl.box.com/shared/static/9fqbq87j0tx4m6vfl06pl4ccc0hwamg9.xml)
 
 ### Capture Branching Ratios
 
-Below are links to tabulated representations of the capture branching ratios computed using PWR and SFR spectra. The PWR branching ratios are taken from the Serpent Wiki. The SFR branching ratios are computed by computing one group total capture, capture to ground, and capture to metastable states in an SFR assembly.
+Below are links to tabulated representations of the capture branching ratios computed using pressurized water reactor (PWR) and sodium fast reactor (SFR) spectra. The PWR branching ratios are taken from the [Serpent Wiki](http://serpent.vtt.fi/mediawiki/index.php/Default_isomeric_branching_ratios). The SFR branching ratios are computed by computing one-group total capture, capture to ground, and capture to metastable states in an SFR assembly. The effective branching ratios were taken to be the ratio of reactions to ground to total number of capture reactions for each isotope.
 
-[PWR Spectrum Capture Branching Ratios](https://github.com/openmc-dev/data/blob/master/depletion/branching_ratios_pwr.json)
-[SFR Spectrum Capture Branching Ratios](https://github.com/openmc-dev/data/blob/master/depletion/branching_ratios_sfr.json)
+[Thermal Spectrum (PWR) Capture Branching Ratios](https://github.com/openmc-dev/data/blob/master/depletion/branching_ratios_thermal.json)
+[Fast Spectrum (SFR) Capture Branching Ratios](https://github.com/openmc-dev/data/blob/master/depletion/branching_ratios_fast.json)
