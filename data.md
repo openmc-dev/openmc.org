@@ -15,13 +15,19 @@ The data libraries listed here have been produced by the OpenMC development team
 
 This library includes incident neutron, photoatomic, thermal scattering, and windowed multipole data. All ACE files were produced using NJOY 2016.68. Incident neutron data is available at six temperatures: 250 K, 293.6 K, 600 K, 900 K, 1200 K, and 2500 K. Note that elastic scattering cross sections are also available at 0 K and and can be used for modeling resonance upscattering in heavy nuclides. Thermal scattering data is available at the tabulated temperatures from the source ENDF files. Windowed multipole data can be used to evaluate temperature-dependent cross sections at run-time.
 
-Downloads: [ENDF/B-VII.1](https://anl.box.com/shared/static/9igk353zpy8fn9ttvtrqgzvw1vtejoz6.xz)
+Downloads: [.tar.xz](https://anl.box.com/shared/static/9igk353zpy8fn9ttvtrqgzvw1vtejoz6.xz)
 
 ### ENDF/B-VIII.0
 
 This library includes incident neutron, photoatomic, atomic relaxation, and thermal scattering data from ENDF/B-VIII.0. All ACE files were produced using NJOY 2016.68. Incident neutron data is available at six temperatures: 250 K, 293.6 K, 600 K, 900 K, 1200 K, and 2500 K. Thermal scattering data is available at the tabulated temperatures from the source ENDF files.
 
 Downloads: [.tar.xz](https://anl.box.com/shared/static/uhbxlrx7hvxqw27psymfbhi7bx7s6u6a.xz)
+
+### ENDF/B-VIII.1
+
+This library includes incident neutron, photoatomic, atomic relaxation, and thermal scattering data from ENDF/B-VIII.1. All ACE files were produced using NJOY 2016.78. Incident neutron data is available at six temperatures: 250 K, 293.6 K, 600 K, 900 K, 1200 K, and 2500 K. Thermal scattering data is available at the tabulated temperatures from the source ENDF files.
+
+Downloads: [.tar.xz](https://anl.box.com/shared/static/6qr7jezzihkj9p9esl5jn19qgpujyjyz.xz)
 
 ### JEFF 3.3
 
@@ -73,7 +79,6 @@ This library was produced by converting [ACE files](https://www-nds.iaea.org/fen
 
 Download: [.tar.xz](https://anl.box.com/shared/static/3cb7jetw7tmxaw6nvn77x6c578jnm2ey.xz)
 
-
 ## Depletion Chains
 
 In order to perform depletion analysis using [the OpenMC depletion module](https://docs.openmc.org/en/latest/pythonapi/deplete.html), a representation of the depletion chain must be presented. This chain describes transmutation and decay channels causing isotopes to evolve over time. XML-representations of these depletion chains can be built using evaluated nuclear data libraries. OpenMC provides [functions](https://docs.openmc.org/en/latest/pythonapi/generated/openmc.deplete.Chain.html#openmc.deplete.Chain.from_endf) and scripts to generate these chain files using a collection of neutron interaction, neutron-induced fission, and decay files. Alternatively, pre-generated chain files are made available here.
@@ -107,6 +112,18 @@ Download: [.xml](https://anl.box.com/shared/static/nyezmyuofd4eqt6wzd626lqth7wvp
 This is a complete depletion chain generated based on the incident neutron, decay, and neutron fission yield sublibraries from ENDF/B-VIII.0. Capture branching ratios used within are representative of a sodium fast reactor (SFR). Branching ratios were computed by tallying total capture reaction rates, capture to ground, and capture to metastable states for specific isotopes. The effective branching ratios were taken to be the ratio of reactions to ground to total number of capture reactions for each isotope.
 
 Download: [.xml](https://anl.box.com/shared/static/x3kp739hr5upmeqpbwx9zk9ep04fnmtg.xml)
+
+### ENDF/B-VIII.1 Chain (Thermal Spectrum)
+
+This is a complete depletion chain generated based on the incident neutron, decay, and neutron fission yield sublibraries from ENDF/B-VIII.1. Capture branching ratios are taken to be identical to the [default branching ratios used in the Serpent](http://serpent.vtt.fi/mediawiki/index.php/Default_isomeric_branching_ratios) Monte Carlo code, corresponding to a typical PWR spectrum.
+
+Download: [.xml](https://anl.box.com/shared/static/q6ev8pl7xct179ke7kq148smde8gzni6.xml)
+
+### ENDF/B-VIII.1 Chain (Fast Spectrum)
+
+This is a complete depletion chain generated based on the incident neutron, decay, and neutron fission yield sublibraries from ENDF/B-VIII.1. Capture branching ratios used within are representative of a sodium fast reactor (SFR). Branching ratios were computed by tallying total capture reaction rates, capture to ground, and capture to metastable states for specific isotopes. The effective branching ratios were taken to be the ratio of reactions to ground to total number of capture reactions for each isotope.
+
+Download: [.xml](https://anl.box.com/shared/static/n0pkqe66uotskoljr93szvjyvtvycgze.xml)
 
 ### Simplified Chain (Thermal Spectrum)
 
