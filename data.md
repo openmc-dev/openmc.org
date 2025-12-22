@@ -37,6 +37,12 @@ Note that the C13 and O17 cannot be processed by NJOY 2016.68 due to a bug in th
 
 Download: [.tar.xz](https://anl.box.com/shared/static/4jwkvrr9pxlruuihcrgti75zde6g7bum.xz)
 
+### JEFF 4.0
+
+This library includes incident neutron and thermal scattering data from JEFF 4.0. All ACE files were produced using NJOY 2016.79. The photoatomic and atomic relaxation data from ENDF/B-VIII.1 has also been included because JEFF 4.0 does not release its own photoatomic or atomic relaxation sublibraries. Incident neutron data is available at six temperatures: 250 K, 293.6 K, 600 K, 900 K, 1200 K, and 2500 K. Thermal scattering data is available at the tabulated temperatures from the source ENDF files.
+
+Download: [.tar.xz](https://anl.box.com/shared/static/fmcr8zoox1t6um0rwb2iw1nz72xue8ol.xz)
+
 ## LANL-Based Data Libraries
 
 ### ENDF/B-VII.0
@@ -103,6 +109,13 @@ This is a complete depletion chain generated based on the incident neutron, deca
 
 Thermal spectrum: [.xml](https://anl.box.com/shared/static/q6ev8pl7xct179ke7kq148smde8gzni6.xml)
 Fast spectrum: [.xml](https://anl.box.com/shared/static/n0pkqe66uotskoljr93szvjyvtvycgze.xml)
+
+### JEFF 4.0
+
+This is a complete depletion chain generated based on the incident neutron, decay, and neutron fission yield sublibraries from JEFF 4.0. Two versions are provided with spectrum-averaged capture branching ratios: one based on a thermal flux spectrum and one based on a fast flux spectrum.
+
+Thermal spectrum: [.xml](https://anl.box.com/shared/static/qpcfyrctoffb34m4dwyxz2vgp8tim8e7.xml)
+Fast spectrum: [.xml](https://anl.box.com/shared/static/p6cettxz3ovbp151qg7bc3k9ov0zt3wm.xml)
 
 ### Simplified Chain
 
