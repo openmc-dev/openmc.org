@@ -39,9 +39,15 @@ Download: [.tar.xz](https://anl.box.com/shared/static/4jwkvrr9pxlruuihcrgti75zde
 
 ### JEFF 4.0
 
-This library includes incident neutron and thermal scattering data from JEFF 4.0. All ACE files were produced using NJOY 2016.79. The photoatomic and atomic relaxation data from ENDF/B-VIII.1 has also been included because JEFF 4.0 does not release its own photoatomic or atomic relaxation sublibraries. Incident neutron data is available at six temperatures: 250 K, 293.6 K, 600 K, 900 K, 1200 K, and 2500 K. Thermal scattering data is available at the tabulated temperatures from the source ENDF files.
+This library includes incident neutron and thermal scattering data from JEFF 4.0. All ACE files were produced using NJOY 2016.78. The photoatomic and atomic relaxation data from ENDF/B-VIII.1 has also been included because JEFF 4.0 does not release its own photoatomic or atomic relaxation sublibraries. Incident neutron data is available at six temperatures: 250 K, 293.6 K, 600 K, 900 K, 1200 K, and 2500 K. Thermal scattering data is available at the tabulated temperatures from the source ENDF files.
 
 Download: [.tar.xz](https://anl.box.com/shared/static/fmcr8zoox1t6um0rwb2iw1nz72xue8ol.xz)
+
+### JENDL-5
+
+This library includes incident neutron, photoatomic, atomic relaxation, and thermal scattering data from JENDL-5 (including all errata through update-16). All ACE files were produced using NJOY 2016.78. Incident neutron data is available at six temperatures: 250 K, 293.6 K, 600 K, 900 K, 1200 K, and 2500 K. Thermal scattering data is available at the tabulated temperatures from the source ENDF files.
+
+Download: [.tar.xz](https://anl.box.com/shared/static/bitsmk1bjkjfj01h4lh29mmlqs1v30bn.xz)
 
 ## LANL-Based Data Libraries
 
@@ -93,40 +99,47 @@ In order to perform depletion analysis using [the OpenMC depletion module](https
 
 This is a complete depletion chain containing all isotopes with cross sections, neutron-induced fission yield data, and decay data as contained in the ENDF/B-VII.1 libraries distributed with OpenMC. Two versions are provided with spectrum-averaged capture branching ratios: one based on a thermal flux spectrum and one based on a fast flux spectrum.
 
-Thermal spectrum: [.xml](https://anl.box.com/shared/static/os1u896bwsbopurpgas72bi6aij2zzdc.xml)
+Thermal spectrum: [.xml](https://anl.box.com/shared/static/os1u896bwsbopurpgas72bi6aij2zzdc.xml)<br>
 Fast spectrum: [.xml](https://anl.box.com/shared/static/9058zje1gm0ekd93hja542su50pccvj0.xml)
 
 ### ENDF/B-VIII.0
 
 This is a complete depletion chain generated based on the incident neutron, decay, and neutron fission yield sublibraries from ENDF/B-VIII.0. Two versions are provided with spectrum-averaged capture branching ratios: one based on a thermal flux spectrum and one based on a fast flux spectrum.
 
-Thermal spectrum: [.xml](https://anl.box.com/shared/static/nyezmyuofd4eqt6wzd626lqth7wvpprr.xml)
+Thermal spectrum: [.xml](https://anl.box.com/shared/static/nyezmyuofd4eqt6wzd626lqth7wvpprr.xml)<br>
 Fast spectrum: [.xml](https://anl.box.com/shared/static/x3kp739hr5upmeqpbwx9zk9ep04fnmtg.xml)
 
 ### ENDF/B-VIII.1
 
 This is a complete depletion chain generated based on the incident neutron, decay, and neutron fission yield sublibraries from ENDF/B-VIII.1. Two versions are provided with spectrum-averaged capture branching ratios: one based on a thermal flux spectrum and one based on a fast flux spectrum.
 
-Thermal spectrum: [.xml](https://anl.box.com/shared/static/q6ev8pl7xct179ke7kq148smde8gzni6.xml)
+Thermal spectrum: [.xml](https://anl.box.com/shared/static/q6ev8pl7xct179ke7kq148smde8gzni6.xml)<br>
 Fast spectrum: [.xml](https://anl.box.com/shared/static/n0pkqe66uotskoljr93szvjyvtvycgze.xml)
 
 ### JEFF 4.0
 
 This is a complete depletion chain generated based on the incident neutron, decay, and neutron fission yield sublibraries from JEFF 4.0. Two versions are provided with spectrum-averaged capture branching ratios: one based on a thermal flux spectrum and one based on a fast flux spectrum.
 
-Thermal spectrum: [.xml](https://anl.box.com/shared/static/qpcfyrctoffb34m4dwyxz2vgp8tim8e7.xml)
+Thermal spectrum: [.xml](https://anl.box.com/shared/static/qpcfyrctoffb34m4dwyxz2vgp8tim8e7.xml)<br>
 Fast spectrum: [.xml](https://anl.box.com/shared/static/p6cettxz3ovbp151qg7bc3k9ov0zt3wm.xml)
+
+### JENDL-5
+
+This is a complete depletion chain generated based on the incident neutron, decay, and neutron fission yield sublibraries from JENDL-5 (including all errata through update-16). Two versions are provided with spectrum-averaged capture branching ratios: one based on a thermal flux spectrum and one based on a fast flux spectrum.
+
+Thermal spectrum: [.xml](https://anl.box.com/shared/static/zgn4gkwxnl3tyh45vrig429yze24sy9d.xml)<br>
+Fast spectrum: [.xml](https://anl.box.com/shared/static/yw4bsaf86d1vhva42wzurwstlp1ynhe5.xml)
 
 ### Simplified Chain
 
 Provided here is a simplified depletion chain using isotopes recommended by Appendix A of Kang Seog Kim, “Specification for the VERA Depletion Benchmark Suite”, CASL-U-2015-1014-000, Rev. 0, ORNL/TM-2016/53, 2016. Te129 has been included, due to its link to I129 production. Two versions are provided with spectrum-averaged capture branching ratios: one based on a thermal flux spectrum and one based on a fast flux spectrum.
 
-Thermal spectrum: [.xml](https://anl.box.com/shared/static/3nvnasacm2b56716oh5hyndxdyauh5gs.xml)
+Thermal spectrum: [.xml](https://anl.box.com/shared/static/3nvnasacm2b56716oh5hyndxdyauh5gs.xml)<br>
 Fast spectrum: [.xml](https://anl.box.com/shared/static/9fqbq87j0tx4m6vfl06pl4ccc0hwamg9.xml)
 
 ### Capture Branching Ratios
 
 Below are links to tabulated representations of the capture branching ratios computed using pressurized water reactor (PWR) and sodium fast reactor (SFR) spectra. The PWR branching ratios are taken from the [Serpent Wiki](http://serpent.vtt.fi/mediawiki/index.php/Default_isomeric_branching_ratios). The SFR branching ratios are computed by computing one-group total capture, capture to ground, and capture to metastable states in an SFR assembly. The effective branching ratios were taken to be the ratio of reactions to ground to total number of capture reactions for each isotope.
 
-[Thermal Spectrum (PWR) Capture Branching Ratios](https://github.com/openmc-dev/data/blob/master/depletion/branching_ratios_thermal.json)
+[Thermal Spectrum (PWR) Capture Branching Ratios](https://github.com/openmc-dev/data/blob/master/depletion/branching_ratios_thermal.json)<br>
 [Fast Spectrum (SFR) Capture Branching Ratios](https://github.com/openmc-dev/data/blob/master/depletion/branching_ratios_fast.json)
